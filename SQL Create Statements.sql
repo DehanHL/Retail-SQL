@@ -1,5 +1,5 @@
 --Create all tables
-REATE TABLE CUSTOMER
+CREATE TABLE CUSTOMER
 (
     Cust_ID numeric(10) NOT NULL,
     Cust_FName varchar(50) NOT NULL,
