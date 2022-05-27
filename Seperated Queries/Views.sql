@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW Open_Unnasigned_Tickets AS
+CREATE OR REPLACE VIEW Open_Unasigned_Tickets AS
 SELECT * FROM SUPPORT_TICKET
 WHERE Emp_ID IS NULL AND Tic_Status = 'Open';
 
@@ -13,3 +13,7 @@ WHERE Pay_Status = 'Confirmed';
 CREATE OR REPLACE VIEW Customer_Service AS
 SELECT Emp_Name FROM EMPLOYEE
 WHERE Emp_Type_ID = 1;
+
+CREATE OR REPLACE VIEW NO_STOCK AS
+SELECT * FROM PRODUCT
+WHERE Product_Quantity = 0;
