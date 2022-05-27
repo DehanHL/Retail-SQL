@@ -1,4 +1,4 @@
-INSERT INSERT CUSTOMER (Cust_ID, Cust_FName, Cust_LName, Cust_Email, Cust_Phone) VALUES (63, 'Blondie', 'Mallabar', 'bmallabar1q@comsenz.com', '+2794691873');
+INSERT INSERT CUSTOMER (Cust_ID, Cust_FName, Cust_SName, Cust_Email, Cust_Phone) VALUES (63, 'Blondie', 'Mallabar', 'bmallabar1q@comsenz.com', '+2794691873');
 INSERT INSERT EMPLOYEE_TYPE (Emp_Type_ID, Emp_Type_Description) VALUES (1, 'Customer Service');
 INSERT INSERT EMPLOYEE (Emp_ID, Emp_Name, Emp_Date, Emp_Standard_Rate, Emp_Overtime_Rate, Emp_Weekly_Hours, Emp_Manager_ID, Emp_Type_ID) VALUES (29, 'Sloan', '08-Jun-2021', 29.88, 37.85, 40, NULL, 1);
 INSERT INSERT SUPPORT_TICKET (Tic_ID, Tic_Date, Tic_Status, Emp_ID, Cust_ID) VALUES (14, '12-Apr-2022', 'Open', 20, 72);
